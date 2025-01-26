@@ -1,0 +1,33 @@
+
+.card {
+    border: 1px solid #ddd;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; 
+  
+  
+  .card:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+ 
+  .card-body {
+    background-color: #6a0dad; 
+    color: white; 
+  }
+  
+  
+  .card-title {
+    color: #ffffff;
+  }
+  
+  
+  .card-footer {
+    background-color: #4b0082; 
+    color: white;
+  }
+  
+  
+  .card-footer small {
+    color: #dcdcdc; 
+  }
+  
